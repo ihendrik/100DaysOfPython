@@ -5,3 +5,5 @@ people=int(input("How many people to split the bill? "))
 bill_with_tip=((tip/100)*bill)+bill
 result = round((bill_with_tip/people),2)
 print("Each person should pay: $"+str(result))
+
+#print ((bill/people)*(1+(tip/100)))
